@@ -13,3 +13,5 @@ npm start
 
 Then the server will launch and the URL will get copied to clipboard.
 After opening the page in your device, you will see state transition log in that page.
+
+![Demo using iPhone](./assets/demo-iphone.png)
