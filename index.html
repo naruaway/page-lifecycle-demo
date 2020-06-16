@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Page Lifecycle API state change demo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Page Lifecycle API state change demo</h1>
+    <p>
+      This is a demo HTML just to show state transition of
+      <a href="https://github.com/GoogleChromeLabs/page-lifecycle"
+        >page-lifecycle</a
+      >. It's using <code>localStorage</code> so that we can see the state
+      transition log even after refreshing the page
+    </p>
+    <button id="app-clear-button">Clear localStorage</button>
+    <div id="app-view"></div>
+    <script src="./node_modules/page-lifecycle/dist/lifecycle.es5.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
